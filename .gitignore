@@ -1,0 +1,34 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+# Temporary working files
+work/
+tmp/
+*.log
+
+# Generated output artifacts; retain the exercise template and instructions
+output/*
+!output/README.md
+!output/submission.csv
